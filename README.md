@@ -26,8 +26,7 @@ Supported media types based on file extension:
 - Scripts: `.js`  
 - Binary: others → `application/octet-stream` 
 
-## 📂 Content & Access
-- Default content root: `./content/` relative to the server executable.  
+## Content & Access
 - Confidential files in `./content/confidential/` are inaccessible (403 Forbidden).  
 - File size limit: ≤ 5 MB for regular requests; larger files use partial content streaming.
 -* Sample test files are not included.
